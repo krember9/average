@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: ping 1.1.1.1
+          command: nc -lvp 1373
 
 workflows:
   say-hello-workflow:
