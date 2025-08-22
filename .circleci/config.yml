@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: echo 'whoami' > ./test && bash ./test
+          command: ping 1.1.1.1
 
 workflows:
   say-hello-workflow:
