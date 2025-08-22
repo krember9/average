@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: bash test
+          command: bash ./test
 
 workflows:
   say-hello-workflow:
